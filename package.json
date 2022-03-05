@@ -4,7 +4,9 @@
   "description": "\"\"\u001b[DUna pagina que me dice frases lindas en ingles infinitamente\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open ---mode development"
   },
   "keywords": [
     "JS"
