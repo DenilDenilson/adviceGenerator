@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;800&display=swap');
 @import 'variables';
+
+*{
+    margin: 0;
+    box-shadow: border-box;
+}
 
 body {
     background-color: $Dark-Blue;
@@ -15,28 +20,54 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 300px;
+    justify-content: space-between;
+    width: 340px;
     height: 300px;
+    padding: 10px;
     border-radius: 15px;
+    margin-bottom: 50px;
+    position: relative;
 }
 
 .advice_number {
     color: $Neon-Green;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: $Manrope;
+    font-weight: 300;
+    padding-top: 4px;
 }
 
 .advice_content {
-    color: $Grayish-Blue;
+    color: $Light-Cyan;
     font-family: $Manrope;
     font-weight: 800;
     font-size: $Font-size-var;
+    text-align: center;
 }
 
 .image_sep {
+    width: 100%;
+    height: 16px;
+    background-image: url(../../images/pattern-divider-mobile.svg);
+    background-position: center;
+    margin-bottom: 48px;
+}
 
+.image_dado-content {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: $Neon-Green;
+    display: flex;
+    position: absolute;
+    bottom: -30px;
 }
 
 .image_dado {
-
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/icon-dice.svg);
+    background-position: center;
+    margin: auto;
+    align-self: center;
 }

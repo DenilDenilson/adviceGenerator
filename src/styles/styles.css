@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;800&display=swap");
+* {
+  margin: 0;
+  -webkit-box-shadow: border-box;
+          box-shadow: border-box;
+}
+
 body {
   background-color: #1f2632;
   display: -webkit-box;
@@ -29,23 +35,61 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 340px;
   height: 300px;
+  padding: 10px;
   border-radius: 15px;
+  margin-bottom: 50px;
+  position: relative;
 }
 
 .advice_number {
   color: #52ffa8;
-  font-size: 20px;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  padding-top: 4px;
 }
 
 .advice_content {
-  color: #4e5d73;
+  color: #cee3e9;
   font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 28px;
+  text-align: center;
+}
+
+.image_sep {
+  width: 100%;
+  height: 16px;
+  background-image: url(../../images/pattern-divider-mobile.svg);
+  background-position: center;
+  margin-bottom: 48px;
+}
+
+.image_dado-content {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #52ffa8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: -30px;
+}
+
+.image_dado {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/icon-dice.svg);
+  background-position: center;
+  margin: auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=styles.css.map */

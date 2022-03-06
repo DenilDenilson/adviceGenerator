@@ -12,14 +12,24 @@ module.exports = {
         extensions: ['.js'],
     },
     module: {
-        rules: [{
-            test: /\,js?$/,
-            exclude: /node_modules/,
+        rules: [
+            {
+                test: /\,js?$/,
+                exclude: /node_modules/,
 
-            use: {
-                loader: 'babel-loader',
+                use: {
+                    loader: 'babel-loader',
+                }
+            },
+            {
+                test: /\.css$/i,
+                use: ['style-loader', 'css-loader'],
+            },
+            {
+                type: "asset",
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
             }
-        }]
+        ]
     },
 
     plugins: [
