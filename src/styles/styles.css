@@ -14,6 +14,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100vh;
 }
 
 .main {
@@ -31,13 +32,20 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
 }
 
 .advice_number {
   color: #52ffa8;
+  font-size: 20px;
 }
 
 .advice_content {
   color: #4e5d73;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
 }
 /*# sourceMappingURL=styles.css.map */

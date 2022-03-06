@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 .main {
@@ -15,12 +16,27 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
 }
 
 .advice_number {
     color: $Neon-Green;
+    font-size: 20px;
 }
 
 .advice_content {
     color: $Grayish-Blue;
+    font-family: $Manrope;
+    font-weight: 800;
+    font-size: $Font-size-var;
+}
+
+.image_sep {
+
+}
+
+.image_dado {
+
 }
