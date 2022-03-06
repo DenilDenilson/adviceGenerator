@@ -1,1 +1,1 @@
-console.log("Hello");
+(()=>{"use strict";const a=async()=>{const a=await(async()=>{try{const a=await fetch("https://api.adviceslip.com/advice");return await a.json()}catch(a){console.log("Fetch Error",a)}})();return`\n        <h1 class="advice_number">${a.slip.id}</h1>\n        <p class="advice_content">${a.slip.advice}</p>\n        <img src="image_sep" alt="Imagen decoratica">\n        <img src="image_dado" alt="Dado para cambiar de frase">\n    `};window.addEventListener("load",(async function(){document.querySelector(".main").innerHTML=await a()}))})();
