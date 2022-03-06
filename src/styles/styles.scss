@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import 'variables';
+
+body {
+    background-color: $Dark-Blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: $Dark-Grayish-Blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advice_number {
+    color: $Neon-Green;
+}
+
+.advice_content {
+    color: $Grayish-Blue;
+}
