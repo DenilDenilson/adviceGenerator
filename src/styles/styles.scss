@@ -61,6 +61,14 @@ body {
     display: flex;
     position: absolute;
     bottom: -30px;
+    cursor: pointer;
+    border: none;
+
+    &:hover {
+        //background: #a945c7;
+        box-shadow: 0 0 10px $Neon-Green, 0 0 20px $Neon-Green, 0 0 40px $Neon-Green;
+        //transition-delay: 1s;
+    }
 }
 
 .image_dado {
@@ -71,3 +79,4 @@ body {
     margin: auto;
     align-self: center;
 }
+

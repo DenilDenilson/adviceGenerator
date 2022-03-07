@@ -80,6 +80,13 @@ body {
   display: flex;
   position: absolute;
   bottom: -30px;
+  cursor: pointer;
+  border: none;
+}
+
+.image_dado-content:hover {
+  -webkit-box-shadow: 0 0 10px #52ffa8, 0 0 20px #52ffa8, 0 0 40px #52ffa8;
+          box-shadow: 0 0 10px #52ffa8, 0 0 20px #52ffa8, 0 0 40px #52ffa8;
 }
 
 .image_dado {
