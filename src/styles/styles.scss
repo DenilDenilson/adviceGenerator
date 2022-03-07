@@ -48,7 +48,7 @@ body {
 .image_sep {
     width: 100%;
     height: 16px;
-    background-image: url(../../images/pattern-divider-mobile.svg);
+    background-image: url(../../images/pattern-divider-mobilePng.png);
     background-position: center;
     margin-bottom: 48px;
 }
@@ -74,7 +74,7 @@ body {
 .image_dado {
     width: 24px;
     height: 24px;
-    background-image: url(../../images/icon-dice.svg);
+    background-image: url(../../images/icon-dicePng.png);
     background-position: center;
     margin: auto;
     align-self: center;
@@ -96,7 +96,7 @@ body {
     }
 
     .image_sep {
-        background-image: url(../../images/pattern-divider-desktop.png);
+        background-image: url(../../images/pattern-divider-desktopPng.png);
     }
 
 }
