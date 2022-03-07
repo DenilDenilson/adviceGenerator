@@ -79,7 +79,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  bottom: -30px;
+  bottom: 235px;
   cursor: pointer;
   border: none;
 }

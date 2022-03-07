@@ -7,8 +7,7 @@ const Home = async () => {
     const view = `
         <h1 class="advice_number">ADVICE # ${number}</h1>
         <p class="advice_content">"${advice}"</p>
-        
-        
+        <div class="image_sep"></div>
     `;
     return view;
 }
