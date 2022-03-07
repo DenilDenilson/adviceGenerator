@@ -60,7 +60,7 @@ body {
     background-color: $Neon-Green;
     display: flex;
     position: absolute;
-    bottom: 235px;
+    bottom: 20px;
     cursor: pointer;
     border: none;
 
@@ -80,3 +80,8 @@ body {
     align-self: center;
 }
 
+.all-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}

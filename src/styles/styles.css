@@ -79,7 +79,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  bottom: 235px;
+  bottom: 20px;
   cursor: pointer;
   border: none;
 }
@@ -98,5 +98,15 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+.all-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
 }
 /*# sourceMappingURL=styles.css.map */

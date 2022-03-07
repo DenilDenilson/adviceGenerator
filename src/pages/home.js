@@ -5,7 +5,7 @@ const Home = async () => {
     const number = datosApi.slip.id;
     const advice = datosApi.slip.advice;
     const view = `
-        <h1 class="advice_number">ADVICE # ${number}</h1>
+        <h1 class="advice_number">ADVICE #${number}</h1>
         <p class="advice_content">"${advice}"</p>
         <div class="image_sep"></div>
     `;
