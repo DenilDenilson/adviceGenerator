@@ -109,4 +109,14 @@ body {
           justify-content: center;
   position: relative;
 }
+
+@media only screen and (min-width: 1440px) {
+  .main {
+    width: 480px;
+    height: 280px;
+  }
+  .image_sep {
+    background-image: url(../../images/pattern-divider-desktop.svg);
+  }
+}
 /*# sourceMappingURL=styles.css.map */
